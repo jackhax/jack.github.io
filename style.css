@@ -1,0 +1,48 @@
+
+body{
+	text-align: center;
+	background-color: maroon;
+	vertical-align: center;
+	color: white;
+	border:15px double white;
+	padding-bottom: 50%;
+	font-family: 'Arvo', serif;
+	margin: 10px;
+	font-size: 15px;
+}
+
+.image1{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	transition: all 1s;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}
+
+.image1:hover{
+	transform: scale(1.1);
+}
+
+.form{
+	display: inline-block;
+	text-align: center;
+	padding: 35px;
+	box-sizing: content-box;
+	box-shadow: -5px 5px 4px #876E00;
+	border:5px double white;
+	margin-top: 50px;
+	border-radius: 90px;
+	margin-bottom: 50px;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+}
+
+footer{
+	text-align: center;
+}

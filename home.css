@@ -1,0 +1,85 @@
+body{
+	background-color: #FFB273;
+	margin:15px;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+}
+
+.image1{
+	display: flex;
+	justify-content: center;
+	margin:10px 0px 10px 0px;
+
+}
+
+.navbar{
+	background-color: maroon;
+	border:5px;
+	color: white;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+
+.p_name{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 50px;
+}
+
+.card{
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+	transition: all 1s;
+}
+
+.card:hover{
+	transform: scale(1.1);
+	border: 7px double red;
+}
+
+.i_name{
+	font-family: 'Boogaloo', cursive;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.main_content{
+	font-family: 'Boogaloo', cursive;
+	font-size: 23px;
+	float: left;
+	border: 5px double maroon;
+	padding: 20px;
+	width:280px;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+	text-align: left;
+	background-color: rgb(255, 155, 72 ,0.5);
+	transition: all 1s;
+}
+
+.main_content:hover{
+	transform: scale(1.1);
+	cursor: help;
+}
+
+.summary{
+	text-align: center;
+	margin-right: 270px;
+	margin-top: 10px;
+}
+
+.summary1{
+	text-align: center;
+	margin-right: 270px;
+	margin-top: 10px;
+	margin-left: 285px
+}
+
+.table{
+	display: inline-table;
+
+}
+
